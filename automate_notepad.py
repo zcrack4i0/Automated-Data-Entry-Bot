@@ -37,6 +37,7 @@ def save_file(filename):
         pyautogui.hotkey('ctrl', 's')
         time.sleep(1)
         pyautogui.write(filename)
+        time.sleep(0.5)  # Wait for filename to be typed
         pyautogui.press('enter')
         time.sleep(1)
     except Exception as e:
