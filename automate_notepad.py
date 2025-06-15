@@ -27,13 +27,6 @@ def launch_notepad():
         print("Error launching Notepad:", e)
         raise
 
-# def type_post(title, body):
-#     try:
-#         pyautogui.write(f"{title}\n\n{body}", interval=0.03)
-#     except Exception as e:
-#         print("Typing error:", e)
-#         raise
-
 def save_file(filename):
     try:
         pyautogui.hotkey('ctrl', 's')
