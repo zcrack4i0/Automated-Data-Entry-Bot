@@ -7,7 +7,12 @@ from botcity.core import DesktopBot
 import shutil
 
 # Create project directory
-desktop = os.path.join(os.path.expanduser("~"), "Desktop")
+desktop = os.path.expanduser("~")
+
+# Uncomment the next line if your Desktop is synced with OneDrive
+#desktop = os.path.join(desktop, "OneDrive")
+
+desktop = os.path.join(desktop, "Desktop")  
 project_dir = os.path.join(desktop, "tjm-project")
 # Delete the folder if it already exists
 if os.path.exists(project_dir):
