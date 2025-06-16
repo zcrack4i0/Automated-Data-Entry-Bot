@@ -9,7 +9,7 @@ This Python project automates data entry into the Notepad desktop application by
 ✅ Fetches the first 10 posts from the JSONPlaceholder API
 https://jsonplaceholder.typicode.com/posts
 
-✅ Types (or pastes) each post into Notepad with:
+✅ Types each post into Notepad with:
 
 Title as a heading
 
@@ -25,11 +25,11 @@ Body as the content
 
 Python
 
-requests for fetching post data
+Requests for fetching post data
 
-pyautogui for simulating keyboard and UI automation
+Pyautogui for simulating keyboard and UI automation
 
-subprocess for launching Notepad
+Subprocess for launching Notepad
 
 ## 🚀 How to Run
 
